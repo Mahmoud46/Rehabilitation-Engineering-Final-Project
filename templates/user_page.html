@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styles/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+    <link rel="shortcut icon" href="./static/imgs/iuvo-icon.svg" type="image/x-icon">
+    <title>Iuvo</title>
+</head>
+
+<body>
+    <div class="home-container">
+        <div class="menu">
+            <img src="./static/imgs/iuvo-logo-brown.svg" class="logo" alt="">
+            <div class="user-menu-icon">
+                <div class="user_data_title_menu">
+                    <button class="new-ver"><span class="material-symbols-outlined">
+                            notifications
+                        </span></button>
+                    <button class="new-ver"><span class="material-symbols-outlined">
+                            chat
+                        </span></button>
+                    <button class="user-icon-btn" id="name-fst-ltr">E</button>
+                    <p class="">
+                        <span id="cur_full_name">Emily Rivera</span>
+                        <span id="cur_username">Emily_emilyrivera_35824</span>
+                    </p>
+                </div>
+                <ul class="user-menu">
+                    <li><span class="material-symbols-outlined">
+                            settings
+                        </span><span>Settings</span></li>
+                    <li id="logout_btn"><span class="material-symbols-outlined">
+                            logout
+                        </span><span>Logout</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="user-hero">
+            <div class="col-1">
+                <h1><span>Welcome</span> <span id="cur_fst_name">Emily</span></h1>
+                <p>Finally, you have reached your place, you're not alone on this journey. Discover a place of peace and
+                    understanding where healing begins.
+                <div class="user-hero-btns">
+                    <button>Start your day</button>
+                    <button id="sh-med-repo"><span class="material-symbols-outlined">
+                            summarize
+                        </span></button>
+                </div>
+                <p class="switch-quote">Encourage yourself to find one thing that makes you smile today. It could be as
+                    simple as the warmth
+                    of the sun or the sound of laughter.</p>
+            </div>
+            <div class="col-2">
+                <img src="./static/imgs/bgs/f1.jpeg" alt="">
+                <b></b>
+                <div class="content">
+                    <h1>Mindfulness and Relaxation Exercises</h1>
+                    <p></p>
+                </div>
+                <div class="qr_code">
+                    <img src="./static/imgs/qr_code.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="med-report pop">
+            <div class="med-report-body">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="med-head">
+                    <h1>Post-Traumatic Stress Disorder (PTSD) Assessment Report</h1>
+                    <div class="pts-score-impact">
+                        <p><span>Score</span><span id="patient-test-score">47</span></p>
+                        <p><span>Impact</span><span id="patient-test-ptsd-impact">moderate</span></p>
+                    </div>
+                </div>
+                <div class="main-body">
+                    <div class="col-1">
+                        <h2>Patient Information</h2>
+                        <div class="patient-info">
+                            <p><span>Name</span><span id="patient-name">Emily New Rivera</span></p>
+                            <p><span>Age</span><span id="patient-age">1990-11-15</span></p>
+                            <p><span>Gender</span><span id="patient-gender">Female</span></p>
+                            <p><span>Date of Assessment</span><span id="patient-ptsd-test-date">2024-05-14</span></p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h2>Assessment Findings</h2>
+                        <div class="asses-find" id="patient-asses-find">
+                            <p><span>1</span><span>I avoided letting myself get upset when I thought about it or was
+                                    reminded of
+                                    it</span><span>Not at all</span></p>
+                            <p><span>1</span><span>I avoided letting myself get upset when I thought about it or was
+                                    reminded of
+                                    it</span><span>A little bit</span></p>
+                            <p><span>1</span><span>I avoided lettkkkkkkkkkkkkkkkkkkkkkkkking myself get upset when I
+                                    thought about it or was
+                                    reminded of
+                                    it</span><span>
+                                    Moderately</span></p>
+                            <p><span>1</span><span>I avoided letting myself get upset when I thought about it or was
+                                    reminded of
+                                    it</span><span>Not at all</span></p>
+                            <p><span>1</span><span>I avoided letting myself get upset when I thought about it or was
+                                    reminded of
+                                    it</span><span>Not at all</span></p>
+
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h2>Severity of Symptoms</h2>
+                        <div class="sev-symp">
+                            <p><span class="material-symbols-outlined">
+                                    kid_star
+                                </span><span>Not at all</span><span id="count-0">5</span></p>
+                            <p><span class="material-symbols-outlined">
+                                    kid_star
+                                </span><span>A little bit</span><span id="count-1">5</span></p>
+                            <p><span class="material-symbols-outlined">
+                                    kid_star
+                                </span><span>Moderately</span><span id="count-2">5</span></p>
+                            <p><span class="material-symbols-outlined">
+                                    kid_star
+                                </span><span>Quite a bit</span><span id="count-3">5</span></p>
+                            <p><span class="material-symbols-outlined">
+                                    kid_star
+                                </span><span>Extremely</span><span id="count-4">5</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reco">
+                    <h2>Recommendations</h2>
+                    <p>It is recommended that the patient be referred to a mental health professional for further
+                        assessment and appropriate treatment. Treatment options may include therapy, medication, and
+                        coping strategies to manage PTSD symptoms effectively.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="medical-report pop">
+            <div class="medical-report-form-cont">
+                <div class="medical-report-form p1">
+                    <div class="form-header">
+                        <img src="./static/imgs/icon-web.ico" alt="">
+                        <h1>Post-Traumatic Stress Disorder (PTSD) Assessment Report</h1>
+                    </div>
+                    <div class="demo-info-score-impact">
+                        <div class="demographic-info-sec">
+                            <h2>Demographic Information</h2>
+                            <div class="info-body">
+                                <p><span>Name</span> <span id="p-name">Anita K. Singh</span></p>
+                                <p><span>Age</span> <span id="p-age">31</span></p>
+                                <p><span>Gender</span> <span id="p-gender">Female</span></p>
+                                <p><span>Assessment date</span> <span id="p-assessment-date">May 15, 2024</span></p>
+
+                            </div>
+                        </div>
+                        <div class="summary">
+                            <h2>Report summary</h2>
+                            <div class="info-body">
+                                <p><span>PTSD impact</span> <span id="p-impact">High</span></p>
+                                <p><span>Test score</span> <span id="p-score">48</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="report-questions">
+                        <h2>Assessment Findings</h2>
+                        <p class="questions-table-header">
+                            <span>Question</span> <span>Response</span>
+                        </p>
+                        <div class="questions-table-body">
+                            <div class="question-body" id="q1">
+                                <p class="question-content"><span class="material-symbols-outlined">
+                                        line_start_circle
+                                    </span><span>Any reminder brought back feelings about the event/s</span></p>
+                                <div class="questions-response">
+                                    <p><span class="material-symbols-outlined 0">
+                                            check_box_outline_blank
+                                        </span><span>Not at all</span></p>
+                                    <p><span class="material-symbols-outlined 1">
+                                            check_box_outline_blank
+                                        </span><span>A little bit</span></p>
+                                    <p><span class="material-symbols-outlined 2">
+                                            check_box_outline_blank
+                                        </span><span>Moderately</span></p>
+                                    <p><span class="material-symbols-outlined 3">
+                                            check_box_outline_blank
+                                        </span><span>Quite a bit</span></p>
+                                    <p><span class="material-symbols-outlined 4">
+                                            check_box_outline_blank
+                                        </span> <span>Extremely</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-num">Page 1</p>
+                </div>
+                <div class="medical-report-form p2">
+                    <div class="report-questions">
+                        <div class="questions-table-body">
+                        </div>
+                    </div>
+                    <div class="reco-sym-cont">
+                        <div class="med-recommendation">
+                            <h2>Recommendations</h2>
+                            <p>It is recommended that the patient be referred to a mental health professional for
+                                further
+                                assessment and appropriate treatment. Treatment options may include therapy, medication,
+                                and
+                                coping strategies to manage PTSD symptoms effectively.</p>
+                        </div>
+                        <div class="medical-sevirity-of-sym">
+                            <h2>Severity of Symptoms</h2>
+                            <div class="medical-sevirity-of-sym-con">
+                                <p><span>Not at all</span> <span id="not-at-all">0</span></p>
+                                <p><span>A little bit</span> <span id="a-little-bit">0</span></p>
+                                <p><span>Moderately</span> <span id="moderately">0</span></p>
+                                <p><span>Quite a bit</span> <span id="quite-a-bit">0</span></p>
+                                <p><span>Extremely</span> <span id="extremely">0</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-num">Page 2</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="medical-report-info pop">
+            <div class="medical-report-info-cont">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="medical-report-info-cont-header">
+                    <img src="./static/imgs/bgs/Soothing-nature-backgrounds-2.jpg.webp" alt="">
+                    <h1>Post-Traumatic Stress Disorder (PTSD) Assessment Report</h1>
+                    <p>This test may be helpful in identifying whether you are experiencing some of the most common
+                        signs of Post Traumatic Stress. They are not intended to replace a professional diagnosis.</p>
+                </div>
+                <div class="medical-report-info-cont-body">
+                    <div class="content">
+                        <h1 id="ptsd-name-dis">Jyames A. Baker</h1>
+                        <div class="score-ptsd-impact">
+                            <p><span>Test score</span> <span id="ptsd-score-dis">39</span></p>
+                            <p><span>PTSD impact</span> <span id="ptsd-impact-dis">Moderate</span></p>
+                        </div>
+                        <button>Download report</button>
+                    </div>
+                    <div class="repo-img">
+                        <div class="repor-img-cont">
+                            <img src="./static/imgs/captured-div (18).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loader_pop">
+            <div>
+                <img src="./static/imgs/iuvo-icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script>
+        let username = "{{ user_name }}";
+    </script>
+    <script src="../static/scripts/js/user_page.js"></script>
+    <script src="./static/scripts/js/ptsd_report.js"></script>
+</body>
+
+</html>

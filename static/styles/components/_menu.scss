@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    // border: #A2845E 1px solid;
+
+    .logo {
+        width: 150px;
+    }
+
+    .reg-login {
+        padding: 5px;
+        background: #E0E0E0;
+        border-radius: 40px;
+        gap: 20px;
+
+        button {
+            padding: 10px;
+            border-radius: 30px;
+            width: 100px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+
+            &:nth-child(2) {
+                background: #fff;
+            }
+
+            &:hover {
+                color: #A2845E;
+            }
+        }
+    }
+}

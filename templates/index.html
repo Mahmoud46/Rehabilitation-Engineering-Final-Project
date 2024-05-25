@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styles/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+    <link rel="shortcut icon" href="./static/imgs/iuvo-icon.svg" type="image/x-icon">
+    <title>Iuvo</title>
+</head>
+
+<body>
+    <div class="home-container">
+        <div class="menu">
+            <img src="./static/imgs/iuvo-logo-brown.svg" class="logo" alt="">
+            <div class="reg-login">
+                <button class='login-btn'>Login</button>
+                <button class='reg-btn'>Register</button>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="col-1">
+                <h1><span>Together, We Heal: Your Journey to Peace Starts Here.</span><b></b></h1>
+                <h1><span>Together, We Heal:</span> <span>Your Journey to Peace Starts Here.</span></h1>
+                <p>You're not alone on this journey. Discover a place of peace and understanding where healing begins.
+                </p>
+                <div class="sub-mail-btns">
+                    <button class="sub-btn">Subscribe Now</button>
+                    <button class="mail"><span class="material-symbols-outlined">
+                            mail
+                        </span></button>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="f f1">
+                    <img loading="lazy" src="./static/imgs/bgs/f1.jpeg" alt="" class="bg">
+
+                    <h3>Mindfulness and Relaxation Exercises</h3>
+                    <button>Learn more <span class="material-symbols-outlined">
+                            call_made
+                        </span></button>
+
+                </div>
+                <div class="f f2">
+                    <img loading="lazy" src="./static/imgs/bgs/f2.jpg" alt="" class="bg">
+
+                    <h3>Educational Resources About PTSD</h3>
+                    <button>Learn more <span class="material-symbols-outlined">
+                            call_made
+                        </span></button>
+
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="f f3">
+                    <img loading="lazy" src="./static/imgs/bgs/f3.jpg" alt="" class="bg">
+                    <h3>Direct Links to Professional Help </h3>
+                    <button>Learn more <span class="material-symbols-outlined">
+                            call_made
+                        </span></button>
+                </div>
+                <div class="f f4">
+                    <img loading="lazy" src="./static/imgs/bgs/f4.jpg" alt="" class="bg">
+                    <h3>Symptom Tracking</h3>
+                    <button>Learn more <span class="material-symbols-outlined">
+                            call_made
+                        </span></button>
+                </div>
+            </div>
+        </div>
+        <div class="pop f-pop">
+            <div class="f-win">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="f-img">
+                    <img loading="lazy" src="./static/imgs/bgs/f3.jpg" alt="">
+                </div>
+                <div class="f-info">
+                    <h1>Mindfulness and Relaxation Exercises </h1>
+                    <p>Target anxiety, stress, and depression symptoms, utilizing guided meditations, breathing
+                        techniques, and body scans to promote relaxation and mindfulness.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="pop cont-pop">
+            <div class="cont-form">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="cont-img">
+                    <img loading="lazy" src="./static/imgs/bgs/cont.avif" alt="">
+                </div>
+                <form class="cont-body">
+                    <h1>Contact us</h1>
+                    <div class="cont-info">
+                        <div>
+                            <input type="text" id="cont-name" required>
+                            <span>Name</span>
+                        </div>
+                        <div>
+                            <input type="email" id="cont-mail" required>
+                            <span>Email</span>
+                        </div>
+                        <div>
+                            <textarea id="cont-msg" required></textarea>
+                            <span>Message</span>
+                        </div>
+                        <p>
+                            <button type="submit"> <span class="material-symbols-outlined">
+                                    send
+                                </span></button>
+                            <button type="reset"> <span class="material-symbols-outlined">
+                                    clear_all
+                                </span></button>
+
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="pop login-pop">
+            <div class="login-form">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="login-img">
+                    <img loading="lazy" src="./static/imgs/bgs/login_pic.jpg" alt="">
+                </div>
+                <form class="login-body">
+                    <h1>Login</h1>
+                    <div class="login-info">
+                        <div>
+                            <input type="email" id="login-user-mail" required>
+                            <span>Email</span>
+                        </div>
+                        <div>
+                            <input type="password" id="login-user-password" required>
+                            <span>Password</span>
+                        </div>
+                        <p class="frg-psrd">
+                            <button>Forget password?</button>
+                        </p>
+                        <button class="submit-data-btn" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="pop reg-pop">
+            <div class="reg-form">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="reg-img">
+                    <img loading="lazy" src="./static/imgs/bgs/reg.jpg" alt="">
+                </div>
+                <form class="reg-body">
+                    <h1>Register</h1>
+                    <div class="reg-info">
+                        <div class="reg-name">
+                            <!-- <p class="reg-st-name">
+                                <input type="text" id="reg-st-name" required>
+                                <span>First Name</span>
+                            </p>
+                            <p class="reg-lst-name">
+                                <input type="text" id="reg-lst-name" required>
+                                <span>Last Name</span>
+                            </p> -->
+                            <input type="text" id="reg-full-name" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div>
+                            <input type="email" id="reg-user-mail" required>
+                            <span>Email</span>
+                        </div>
+                        <div>
+                            <input type="password" id="reg-user-password" required>
+                            <span>Password</span>
+                        </div>
+                        <div class="reg-bd-sex">
+                            <p class="reg-bd">
+                                <Select id="reg-user-gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </Select>
+                            </p>
+                            <p class="reg-gndr">
+                                <input type="date" id="reg-user-bd" required>
+                            </p>
+                        </div>
+                        <button class="submit-data-btn" type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="ptsd_test_pop">
+            <div class="test-form">
+                <span class="material-symbols-outlined cls-btn">
+                    close
+                </span>
+                <div class="test-img">
+                    <h1>PTSD test</h1>
+                    <img loading="lazy" src="./static/imgs/bgs/Soothing-nature-backgrounds-2.jpg.webp" alt="">
+                    <p>When answering the following questions please consider how they have applied to you in the
+                        last
+                        month or so.</p>
+                </div>
+                <div class="test-body">
+                    <div class="test-info">
+                        <h1>
+                            <span class="q-num">22</span>
+                            <span>Question</span>
+                        </h1>
+                        <p> This test may be helpful in identifying whether you are experiencing some of the most common
+                            signs of Post Traumatic Stress. They are not intended to replace a professional diagnosis.
+                            PTSD
+                            occurs following a disturbing or traumatic event. Symptoms often show in the first few
+                            months,
+                            but for some, the signs are not experienced for several months or even years following the
+                            event.</p>
+                        <button class="st-btn">Start Your Journey</button>
+                    </div>
+                    <div class="test-content">
+                        <p>Any reminder brought back feelings about the event/s</p>
+                        <ul class="test-ops">
+                            <li score=0><span>a</span><span class="op">Not at all</span></li>
+                            <li score=1><span>b</span><span class="op">A little bit</span></li>
+                            <li score=2><span>c</span><span class="op">Moderately</span></li>
+                            <li score=3><span>d</span><span class="op">Quite a bit</span></li>
+                            <li score=4><span>e</span><span class="op">Extremely</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loader_pop">
+            <div>
+                <img src="./static/imgs/iuvo-icon.svg" alt="">
+            </div>
+        </div>
+        <div class="alert_info_pop login-error">
+            <div class="alert_body">
+                <span class="material-symbols-outlined">
+                    sentiment_very_satisfied
+                </span>
+                <p>Login Done!</p>
+                <button>Start Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./static/scripts/js/landing_page.js"></script>
+    <script src="./static/scripts/js/ptsd_test.js"></script>
+</body>
+
+</html>
