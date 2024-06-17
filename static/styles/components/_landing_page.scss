@@ -111,6 +111,19 @@
                         -webkit-box-shadow: -25px 0px 0px 0px #fff;
                         -moz-box-shadow: -25px 0px 0px 0px #fff;
                     }
+
+                    i {
+                        position: absolute;
+                        width: 60px;
+                        height: 30px;
+                        // background: rebeccapurple;
+                        background: transparent;
+                        top: 0;
+                        right: 0px;
+                        z-index: 10;
+                        border-top-left-radius: 20px;
+                        box-shadow: -10px -10px 0 #fff;
+                    }
                 }
             }
 
@@ -373,12 +386,14 @@
                         padding: 20px;
                         padding-left: 90px;
 
-                        &:focus {
+                        &:focus,
+                        &.not-empty {
                             margin-top: 20px;
                             padding: 20px;
                         }
 
-                        &:focus~span {
+                        &:focus~span,
+                        &~span.not-empty {
                             top: 5px;
                             color: #A2845E;
                         }
@@ -399,9 +414,11 @@
                             height: 90px;
                         }
 
+                        &#cont-msg~span.not-empty,
                         &#cont-msg:focus~span {
                             top: 2px;
                         }
+
                     }
 
                     &.reg-bd-sex,
@@ -497,6 +514,11 @@
             }
         }
 
+    }
+
+    .reg-form,
+    .cont-form {
+        height: 550px;
     }
 }
 

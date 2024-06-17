@@ -26,7 +26,31 @@ document.querySelector('.sub-mail-btns .sub-btn').addEventListener('click', _ =>
 lrn_btns.forEach(btn => btn.addEventListener('click', e => ActivateFeaturePopWindow(e.target.parentNode.querySelector('img').src, e.target.parentNode.querySelector('h3').innerText)));
 cls_btns.forEach(btn => btn.addEventListener('click', e => e.target.parentNode.parentNode.classList.remove('active')))
 
+// inputs
+document.querySelectorAll('.ip-ptsd input').forEach(ip => {
+    ip.addEventListener('input', e => {
+        if (e.target.value == '') {
+            e.target.classList.remove('not-empty');
+            e.target.parentNode.querySelector('span').classList.remove('not-empty')
+        } else {
+            e.target.classList.contains('not-empty') ? null : e.target.classList.add('not-empty');
+            e.target.parentNode.querySelector('span').classList.contains('not-empty') ? null : e.target.parentNode.querySelector('span').classList.add('not-empty');
+        }
+    })
+});
+document.querySelectorAll('.ip-ptsd textarea').forEach(ip => {
+    ip.addEventListener('input', e => {
+        if (e.target.value == '') {
+            e.target.classList.remove('not-empty');
+            e.target.parentNode.querySelector('span').classList.remove('not-empty')
+        } else {
+            e.target.classList.contains('not-empty') ? null : e.target.classList.add('not-empty');
+            e.target.parentNode.querySelector('span').classList.contains('not-empty') ? null : e.target.parentNode.querySelector('span').classList.add('not-empty');
+        }
+    })
+});
 
+// 
 sbmt_data_btns.forEach(btn => btn.addEventListener('click', e => {
     stat == 'login' ? UserLogin(e) : UserPreRegister(e);
 }));
