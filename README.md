@@ -15,7 +15,7 @@ The current demo version offers a standardized PTSD assessment that evaluates sy
 ## 🧠 Core Features
 
 - **PTSD Severity Assessment**  
-  The platform includes a PTSD diagnostic test based on the **[PCL-5 (PTSD Checklist for DSM-5)]("https://drive.google.com/drive/folders/1bzNYGyQIArEo_GJ9FzXQ61kAltthyASU)**, a clinically recognized screening tool.
+  The platform includes a PTSD diagnostic test based on the [PCL-5 (PTSD Checklist for DSM-5)]("https://drive.google.com/drive/folders/1bzNYGyQIArEo_GJ9FzXQ61kAltthyASU), a clinically recognized screening tool.
 
 - **Automated PDF Report Generation**  
   Upon completing the assessment, the system generates a detailed PDF report that includes:
