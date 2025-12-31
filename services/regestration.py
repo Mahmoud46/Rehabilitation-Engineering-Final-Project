@@ -1,4 +1,4 @@
-from storage_control import check_user_db_by_email,save_new_user
+from services.storage_control import check_user_db_by_email,save_new_user
 from random import randint
 
 def regestration_validation(reg_data):
