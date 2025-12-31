@@ -14,7 +14,5 @@ app.register_blueprint(sign_bp)
 app.register_blueprint(combine_report_bp)
 
 
-
-
 if (__name__ == '__main__'):
     app.run()

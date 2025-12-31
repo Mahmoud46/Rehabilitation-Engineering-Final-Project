@@ -1,7 +1,7 @@
 from PIL import Image
 from random import randint
 def convert_images_to_pdf(image_paths):
-    output_pdf_path=f'./static/db/pdfs/ptsd_medical_report{randint(0,999999999999999)}.pdf'
+    output_pdf_path=f'./static/reports/ptsd_medical_report{randint(0,999999999999999)}.pdf'
     # Ensure there is at least one image
     if not image_paths:
         raise ValueError("No images to convert.")
