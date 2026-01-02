@@ -97,7 +97,14 @@ project-root/
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+- pip (included with Python)
+
+### ⚙️ Installation & Setup
 
 1. Clone the repository
 
