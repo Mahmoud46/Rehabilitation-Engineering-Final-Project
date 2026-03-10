@@ -1626,5 +1626,153 @@
         "reg_date": "2025-12-31",
         "drs_contact_list": [],
         "ptsd_test_date": "2025-12-31"
+    },
+    {
+        "full_name": "Maria Lopez",
+        "email": "maria_lopez@gmail.com",
+        "password": "M123456l",
+        "gender": "Female",
+        "birth_date": "1990-06-19",
+        "ptsd_score": 43,
+        "ptsd_impact": "High",
+        "username": "Maria_marialopez_30133",
+        "age": 35,
+        "ptsd_test": [
+            {
+                "num": 1,
+                "qst": "Any reminder brought back feelings about the event/s",
+                "ans": "A little bit",
+                "score": 1
+            },
+            {
+                "num": 2,
+                "qst": "I had trouble staying asleep",
+                "ans": "Quite a bit",
+                "score": 3
+            },
+            {
+                "num": 3,
+                "qst": "Other things kept making me think about it",
+                "ans": "Moderately",
+                "score": 2
+            },
+            {
+                "num": 4,
+                "qst": "I felt irritable and angry",
+                "ans": "Not at all",
+                "score": 0
+            },
+            {
+                "num": 5,
+                "qst": "I avoided letting myself get upset when I thought about it or was reminded of it",
+                "ans": "Quite a bit",
+                "score": 3
+            },
+            {
+                "num": 6,
+                "qst": "I thought about the event when I didn't mean to",
+                "ans": "A little bit",
+                "score": 1
+            },
+            {
+                "num": 7,
+                "qst": "I felt as if the event hadn't happened or it wasn't real",
+                "ans": "Moderately",
+                "score": 2
+            },
+            {
+                "num": 8,
+                "qst": "I have stayed away from reminders about the situation",
+                "ans": "Extremely",
+                "score": 4
+            },
+            {
+                "num": 9,
+                "qst": "Images and pictures of the event pop into my mind",
+                "ans": "Not at all",
+                "score": 0
+            },
+            {
+                "num": 10,
+                "qst": "I have been jumpy and easily startled",
+                "ans": "A little bit",
+                "score": 1
+            },
+            {
+                "num": 11,
+                "qst": "I have tried not to think about the situation",
+                "ans": "Moderately",
+                "score": 2
+            },
+            {
+                "num": 12,
+                "qst": "I am aware I have a lot of feelings about what happened but I haven\u2019t dealt with them",
+                "ans": "Not at all",
+                "score": 0
+            },
+            {
+                "num": 13,
+                "qst": "I feel quite 'numb' about the situation",
+                "ans": "Extremely",
+                "score": 4
+            },
+            {
+                "num": 14,
+                "qst": "I have found myself acting/feeling like I am back at the time of the event",
+                "ans": "Moderately",
+                "score": 2
+            },
+            {
+                "num": 15,
+                "qst": "I have had trouble falling asleep",
+                "ans": "A little bit",
+                "score": 1
+            },
+            {
+                "num": 16,
+                "qst": "I experience waves of strong feelings about the situation",
+                "ans": "Not at all",
+                "score": 0
+            },
+            {
+                "num": 17,
+                "qst": "I have tried to remove the situation from my memory",
+                "ans": "Quite a bit",
+                "score": 3
+            },
+            {
+                "num": 18,
+                "qst": "I have trouble concentrating on things I am supposed to do",
+                "ans": "Extremely",
+                "score": 4
+            },
+            {
+                "num": 19,
+                "qst": "Reminders of the event cause me to have physical reactions such as sweating, palpitations, panic attacks",
+                "ans": "Not at all",
+                "score": 0
+            },
+            {
+                "num": 20,
+                "qst": "I have dreams about the situation",
+                "ans": "Extremely",
+                "score": 4
+            },
+            {
+                "num": 21,
+                "qst": "I feel on-guard and struggle to relax",
+                "ans": "Extremely",
+                "score": 4
+            },
+            {
+                "num": 22,
+                "qst": "I try not to talk about the situation",
+                "ans": "Moderately",
+                "score": 2
+            }
+        ],
+        "reg_date": "2026-03-10",
+        "drs_contact_list": [],
+        "ptsd_test_date": "2026-03-10"
     }
 ]
