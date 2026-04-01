@@ -20,7 +20,6 @@ The current demo version offers a standardized PTSD assessment that evaluates sy
 
 - **Automated PDF Report Generation**  
   Upon completing the assessment, the system generates a detailed PDF report that includes:
-
   - An overview of the patient’s condition
   - PTSD severity analysis
   - Practical recommendations for symptom management
@@ -44,7 +43,6 @@ The platform is designed to evolve into a more interactive rehabilitation enviro
 
 - **Educational Resources About PTSD**  
   Curated materials such as:
-
   - Books
   - Research papers
   - Educational videos
@@ -56,7 +54,6 @@ The platform is designed to evolve into a more interactive rehabilitation enviro
 ## 🛠️ Tech Stack
 
 - **Frontend**
-
   - HTML
   - CSS
   - Sass
@@ -65,6 +62,8 @@ The platform is designed to evolve into a more interactive rehabilitation enviro
 - **Backend**
   - Python
   - Flask
+  - JWT
+  - SQLite
 
 ---
 
@@ -80,16 +79,24 @@ The platform is designed to evolve into a more interactive rehabilitation enviro
 
 ```bash
 project-root/
+├── config/
 ├── controllers/
-├── services/
+├── middlewares/
+├── routes/
 ├── db/
-|   ├── imgs/
-|   └── data.txt
+|   └── iuvo.db # Modified based on the path in the .env file
+├── models/
+|   ├── User.py
+|   ├── Assessment.py
+|   └── File.py
 ├── static/
-|   ├── imgs/
-|   ├── reports/           # Generated PDF reports
+|   ├── assets/
+|   ├── db/
+|   |   ├── generated/
+|   |   └── upload/
 |   ├── js/
-|   └── styles/
+|   └── scss/
+├── utils/
 ├── templates/         # HTML templates
 ├── app.py             # Flask application entry point
 └── requirements.txt   # Python dependencies
@@ -131,7 +138,14 @@ venv\Scripts\activate    # On macOS / Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the Flask server
+4. Setup the `.env` file
+
+```bash
+JWT_SECRET={{ SECRET_KEY }}
+DATABASE_URL=./db/iuvo.db
+```
+
+5. Run the Flask server
 
 ```bash
 flask run
