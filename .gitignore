@@ -1,5 +1,6 @@
 **/__pycache__/**
 .vscode
 venv
+.env
 static/db/generated/*.pdf
 db/iuvo.db
